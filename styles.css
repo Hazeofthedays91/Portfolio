@@ -1,0 +1,67 @@
+
+/* OpenProps CSS */
+@import "https://unpkg.com/open-props";
+
+/* Navbar */
+.nav-item {
+    font-size: 1.5rem;
+}
+
+/*** Home Page ***/
+
+/* Info */
+#info_header {
+    font-family: Lobster, cursive;
+    font-size: 6.5rem;
+}
+
+#CBC_info {
+      --op-gradient-direction: to top left;
+  background-image: var(--gradient-3);
+}
+
+.plan_bronze_head {
+    font-family: Lobster, cursive;
+    font-size: 3rem;
+    color: rgb(255, 110, 58);
+}
+
+.plan_bronze {
+    color: rgb(255, 110, 58);
+    font-size: 1.6rem;
+}
+
+.plan_silver_head {
+    font-family: Lobster, cursive;
+    font-size: 3rem;
+    color: rgb(223, 222, 222);
+}
+
+.plan_silver {
+    color: rgb(223, 222, 222);
+}
+
+.plan_gold_head {
+    font-family: Lobster, cursive;
+    font-size: 3rem;
+    color: gold;
+}
+
+.plan_gold {
+    color: gold;
+}
+
+/* Carousel */
+.carousel .carousel-item {
+    height: 700px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 700px;
+}
+
+
+
