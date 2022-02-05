@@ -1,0 +1,92 @@
+/* OpenProps CSS */
+@import "https://unpkg.com/open-props";
+
+#navbar_style {
+    background-color: #e63946;
+}
+
+/* Home Page */
+#home {
+    background-image: url(landing.jpg);
+    background-size: cover;
+    padding-bottom: 300px;
+}
+
+#land_head_1 {
+    padding-top: 260px;
+    padding-bottom: 50px;
+    color: #a8dadc;
+}
+
+.land_head_2 {
+    color: #e63946;
+}
+
+#land_button {
+
+}
+
+
+
+
+/* Navbar */
+.nav-item {
+    font-size: 1.5rem;
+}
+
+#nav_style {
+}
+
+/*** Home Page ***/
+
+/* Landing */
+#landing_1 {
+    background-color: #72efdd;
+    color: #4ea8de;
+    padding-top: 10px;
+}
+
+/* Info */
+#info_header {
+    font-family: Lobster, cursive;
+    font-size: 6.5rem;
+}
+
+#pricing_bg {
+      --op-gradient-direction: to top left;
+  background-image: var(--gradient-3);
+  padding-top: 30px;
+}
+
+.plan_bronze_head {
+    font-family: Lobster, cursive;
+    font-size: 3rem;
+    color: rgb(255, 110, 58);
+}
+
+.plan_bronze {
+    color: rgb(255, 110, 58);
+    font-size: 1.6rem;
+}
+
+.plan_silver_head {
+    font-family: Lobster, cursive;
+    font-size: 3rem;
+    color: rgb(223, 222, 222);
+}
+
+.plan_silver {
+    font-size: 1.6rem;
+    color: rgb(223, 222, 222);
+}
+
+.plan_gold_head {
+    font-family: Lobster, cursive;
+    font-size: 3rem;
+    color: gold;
+}
+
+.plan_gold {
+    font-size: 1.6rem;
+    color: gold;
+}
